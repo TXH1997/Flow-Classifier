@@ -1,0 +1,36 @@
+defence:	test=0.7265
+defence:	dev=0.9920
+
+defence_34:	test=0.7460
+defence_34:	dev=0.9869
+
+defence_ext:	test=0.8065
+defence_ext:	dev=0.9933
+
+defence_ext_34:	test=0.8249
+defence_ext_34:	dev=0.9880
+
+defence_ext_RSB:	test=0.8260
+defence_ext_RSB:	dev=0.9791
+
+defence_RSB:	test=0.7653
+defence_RSB:	dev=0.9636
+
+undefence:	test=0.9371
+undefence:	dev=0.9905
+
+undefence_34:	test=0.9373
+undefence_34:	dev=0.9865
+
+undefence_ext:	test=0.9380
+undefence_ext:	dev=0.9960
+
+undefence_ext_34:	test=0.9431
+undefence_ext_34:	dev=0.9936
+
+undefence_ext_RSB:	test=0.9344
+undefence_ext_RSB:	dev=0.9924
+
+undefence_RSB:	test=0.9331
+undefence_RSB:	dev=0.9893
+

@@ -194,7 +194,15 @@ class ResNet(nn.Module):
 
 
 if __name__ == '__main__':
-    resnet18 = ResNet(BasicBlock, 4, [3, 4, 6, 3])
+    resnet18 = ResNet(Bottleneck, 4, [3, 4, 6, 3])
+
+    num_conv = 0
+    for name, param in resnet18.named_parameters():
+        print('{}: {}'.format(name, param.size()))
+        if name.find('conv') != -1:
+            num_conv += 1
+    print('Number of convolution layers: {}'.format(num_conv))
+
     inputs = torch.randn([5, 200, 4])
     out = resnet18(inputs.permute(0, 2, 1))
     print(out.size())

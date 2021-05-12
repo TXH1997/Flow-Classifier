@@ -1,36 +1,60 @@
+defence:	converge=123.10
 defence:	test=0.7265
-defence:	dev=0.9920
+defence:	dev=0.9609
+defence:	eps=262.11
 
+defence_34:	converge=98.20
 defence_34:	test=0.7460
-defence_34:	dev=0.9869
+defence_34:	dev=0.9611
+defence_34:	eps=185.30
 
+defence_ext:	converge=83.10
 defence_ext:	test=0.8065
-defence_ext:	dev=0.9933
+defence_ext:	dev=0.9664
+defence_ext:	eps=197.43
 
+defence_ext_34:	converge=99.10
 defence_ext_34:	test=0.8249
-defence_ext_34:	dev=0.9880
+defence_ext_34:	dev=0.9647
+defence_ext_34:	eps=179.56
 
+defence_ext_RSB:	converge=97.10
 defence_ext_RSB:	test=0.8260
-defence_ext_RSB:	dev=0.9791
+defence_ext_RSB:	dev=0.9480
+defence_ext_RSB:	eps=208.97
 
+defence_RSB:	converge=108.00
 defence_RSB:	test=0.7653
-defence_RSB:	dev=0.9636
+defence_RSB:	dev=0.9413
+defence_RSB:	eps=222.56
 
+undefence:	converge=72.40
 undefence:	test=0.9371
-undefence:	dev=0.9905
+undefence:	dev=0.9747
+undefence:	eps=340.26
 
+undefence_34:	converge=77.30
 undefence_34:	test=0.9373
-undefence_34:	dev=0.9865
+undefence_34:	dev=0.9660
+undefence_34:	eps=215.93
 
+undefence_ext:	converge=87.10
 undefence_ext:	test=0.9380
-undefence_ext:	dev=0.9960
+undefence_ext:	dev=0.9875
+undefence_ext:	eps=294.26
 
+undefence_ext_34:	converge=93.90
 undefence_ext_34:	test=0.9431
-undefence_ext_34:	dev=0.9936
+undefence_ext_34:	dev=0.9827
+undefence_ext_34:	eps=216.52
 
+undefence_ext_RSB:	converge=79.20
 undefence_ext_RSB:	test=0.9344
-undefence_ext_RSB:	dev=0.9924
+undefence_ext_RSB:	dev=0.9804
+undefence_ext_RSB:	eps=209.68
 
+undefence_RSB:	converge=70.20
 undefence_RSB:	test=0.9331
-undefence_RSB:	dev=0.9893
+undefence_RSB:	dev=0.9691
+undefence_RSB:	eps=166.73
 
